@@ -183,11 +183,9 @@ So how do priorities work?
 
 **Content hugging**
 
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled15.png)
-
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled16.png)
-
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled17.png)
+|   |   |   |
+|---|---|---|
+|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled15.png)|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled16.png) |![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled17.png)|
 
 TextView 249
 
@@ -201,11 +199,9 @@ TextView 251
 
 This is is how much a view resists its content getting squished.
 
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled18.png)
-
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled19.png)
-
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled20.png)
+|   |   |   |
+|---|---|---|
+|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled18.png)|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled19.png)|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled20.png)|
 
 What if you localize this app?
 
@@ -232,16 +228,10 @@ I can either shrink the imageView or clip label.
 - Aligns text better than top or bottom
 - Better control over changing views
 
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled22.png)
+|the button can sort of end up in a nebulous area.|align by last baseline|align by first baseline
+|---|---|---|
+|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled22.png)|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled23.png)|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled24.png)|
 
-the button can sort of end up in a nebulous area.
-
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled23.png)
-align by last baseline
-
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled24.png)
-
-align by first baseline
 
 ### Leading and Trailing
 
@@ -259,9 +249,9 @@ What the engine actually calculates. The engine takes all of your constraints, c
     - Use Show Alignment Rectangles in Debug menu
     - Get using `alignmentRectForFrame:`
 
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled26.png)
-
-![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled27.png)
+|   |   |
+|---|---|
+|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled26.png)|![](/WWDC2015/images/Mysteries-of-Auto-Layout-Part-1/Untitled27.png)|
 
 ### Alignment
 
