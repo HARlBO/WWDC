@@ -17,7 +17,5 @@
 # WWDC2016
 ![](./images/WWDC2015.jpg)
 # WWDC2015
-|Category|Title|
-|:-|--------|
 - UIKit
   - [Mysteries of Auto Layout, Part 1](/WWDC2015/Mysteries-of-Auto-Layout-Part-1.md)
