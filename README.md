@@ -29,6 +29,25 @@
   
 ![](./images/WWDC2018.jpg)
 # WWDC2018
+- Swift
+  - [What's New in Swift](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/What-s-New-in-Swift.md)
+- Testing
+  - [Testing Tips & Tricks](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Testing-Tips-Tricks.md)
+  - [What's New in Testing](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/What-s-New-in-Testing.md)
+- Localization 
+  - [New Localization Workflows in Xcode 10](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/New-Localization-Workflows-in-Xcode10.md)
+- Performance
+  - [Performance	Measuring Performance Using Logging](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Measuring-Performance-Using-Logging.md)
+  - [Building Faster in Xcode](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Building-Faster-in-Xcode.md)
+- Interface Builder	
+  - [Optimizing App Assets](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Optimizing-App-Assets.md)
+- App Store Connect	
+  - [What's New in App Store Connect](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/What-s-New-in-App-Store-Connect.md)
+- Debugging	
+  - [Understanding Crashes and Crash Logs](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Understanding-Crashes-and-Crash-Logs.md)
+  
+  
+  
 ![](./images/WWDC2017.jpeg)
 # WWDC2017
 ![](./images/WWDC2016.png)
