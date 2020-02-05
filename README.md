@@ -1,5 +1,8 @@
 
 # 🎬 WWDC 
+#### 🌈 WWDC 2020 전까지 2015~2019 년도 세션 다 정리하기! 를 목표로 공부하고 기록하고 있습니다  👩🏻‍💻✨  
+
+### 📌 ToC
 - [WWDC2019](#wwdc2019)
 - [WWDC2018](#wwdc2018)
 - [WWDC2017](#wwdc2017)
@@ -44,7 +47,8 @@
 - **App Store Connect**	
   - [What's New in App Store Connect](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/What-s-New-in-App-Store-Connect.md)
 - **Debugging**	
-  - [Understanding Crashes and Crash Logs](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Understanding-Crashes-and-Crash-Logs.md)
+  - [Understanding Crashes and Crash Logs](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Understanding-Crashes-and-Crash-Logs.md) ([Flawless iOS
+🍏](https://medium.com/flawless-app-stories/understanding-crashes-and-crash-logs-fff9781a5df4))
 
 ![](./images/WWDC2017.jpeg)
 # WWDC2017
