@@ -118,7 +118,7 @@
 - **UI Frameworks**
   - [Cocoa Touch Best Practices](/WWDC2015/Cocoa-Touch-Best-Practices.md)
   - [Mysteries of Auto Layout, Part 1](/WWDC2015/Mysteries-of-Auto-Layout-Part-1.md)
-  
+  - [Mysteries of Auto Layout, Part 2](/WWDC2015/Mysteries-of-Auto-Layout-Part-2.md)
   ---
   
 #### Swift
