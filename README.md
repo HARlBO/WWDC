@@ -33,7 +33,9 @@
   - [What's New in iOS Design](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2019/What-s-New-in-iOS-Design.md)
 - **App Store**
   - [App Distribution – From Ad-hoc to Enterprise](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2019/App-Distribution-From-Ad-hoc-to-Enterprise.md)
-  
+- **Privacy and Security**
+  - [Introducing Sign In with Apple](/WWDC2019/Introducing-Sign-In-with-Apple.md)
+
   
 ![](./images/WWDC2018.jpg)
 # WWDC2018
