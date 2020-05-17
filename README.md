@@ -1,6 +1,5 @@
 
 # 🎬 WWDC 
-#### 🌈 WWDC 2020 전까지 2015~2019 년도 세션 다 정리하기! 를 목표로 공부하고 기록하고 있습니다  👩🏻‍💻✨  
 
 ### 📌 ToC
 - [WWDC2019](#wwdc2019)
@@ -35,8 +34,8 @@
   - [App Distribution – From Ad-hoc to Enterprise](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2019/App-Distribution-From-Ad-hoc-to-Enterprise.md)
 - **Privacy and Security**
   - [Introducing Sign In with Apple](/WWDC2019/Introducing-Sign-In-with-Apple.md)
+  - [What's New in Authentication](/WWDC2019/Whats-New-in-Authentication.md)  
 
-  
 ![](./images/WWDC2018.jpg)
 # WWDC2018
 - **Swift**
