@@ -85,6 +85,7 @@
   - [Advanced Testing and Continuous Integration](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2016/Advanced-Testing-and-Continuous-Integration.md)
 - **Performance**
   - [Concurrent Programming with GCD in Swift 3](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2016/Concurrent%20Programming%20With%20GCD%20in%20Swift%203.md)
+  - [Understanding Swift Performance](/WWDC2016/Understanding-Swift-Performance.md)
 - **Localization**
   - [Internationalization Best Practices](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2016/Internationalization-Best-Practices.md)  
 - **App Store Connect**
