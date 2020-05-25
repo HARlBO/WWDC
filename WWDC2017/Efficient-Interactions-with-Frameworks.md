@@ -1,12 +1,15 @@
 # Efficient Interactions with Frameworks
 
 >  📅 2020.5.25 (MON)   
->    
-> WWDC2017 | Session : 244 | Category : App Frameworks   
-
-   
-🔗 [Efficient Interactions with Frameworks - WWDC 2017 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2017/244)
-   
+>  
+>  🗂 WWDC2017 | Session : 244 | Category : App Frameworks   
+>
+> 🔗 [Efficient Interactions with Frameworks - WWDC 2017 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2017/244)
+>  <br />
+>  <br />
+>  🔖 Border crossings can be smooth and efficient or slow and tedious. The boundary between an app and a framework is analogous, but inefficiencies may not always be obvious. Whether it's passing data to an API or understanding how to stay on the fast path while rendering text, we'll explore various aspects of how an app can work efficiently with underlying frameworks. If you build your own frameworks, gain valuable insights into how your clients can be as efficient as possible.
+> <br />
+<br />  
      
 ![/WWDC2017/images/Efficient-Interactions-with-Frameworks/Untitled.png](/WWDC2017/images/Efficient-Interactions-with-Frameworks/Untitled.png)
 
