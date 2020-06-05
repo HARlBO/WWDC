@@ -14,6 +14,8 @@
 [Accessibility](#accessibility) [Signing](#signing)
 [Design](#design) [App Store](#app-store) [Interface Builder](#interface-builder) [Safari and Web](#safari-and-web)
 
+<br/>
+
 ![](./images/WWDC2019.png)
 # WWDC2019
 - **Swift**
@@ -36,6 +38,9 @@
   - [Introducing Sign In with Apple](/WWDC2019/Introducing-Sign-In-with-Apple.md)
   - [What's New in Authentication](/WWDC2019/Whats-New-in-Authentication.md)  
 
+<br/>
+<br/>
+
 ![](./images/WWDC2018.jpg)
 # WWDC2018
 - **Swift**
@@ -56,6 +61,9 @@
   - [Understanding Crashes and Crash Logs](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2018/Understanding-Crashes-and-Crash-Logs.md) ([Flawless iOS
 🍏](https://medium.com/flawless-app-stories/understanding-crashes-and-crash-logs-fff9781a5df4))
 
+<br/>
+<br/>
+
 ![](./images/WWDC2017.jpeg)
 # WWDC2017
 - **Testing**	
@@ -74,7 +82,8 @@
   - [Customized Loading in WKWebView](/WWDC2017/Customized-Loading-in-WKWebView.md)
   - [Efficient Interactions with Frameworks](/WWDC2017/Efficient-Interactions-with-Frameworks.md)
   
-
+<br/>
+<br/>
 
 ![](./images/WWDC2016.png)
 # WWDC2016
@@ -96,6 +105,12 @@
   - [Introducing Expanded Subscriptions in iTunes Connect](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2016/Introducing-Expanded-Subscriptions-in-iTunes-Connet.md)
 - **Debugging**
   - [Thread Sanitizer and Static Analysis](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2016/Thread-Sanitizer-and-Static-Analysis.md)
+- **Video**
+  - [Advances in AVFoundation Playback](/WWDC2016/Advances-in-AVFoundation-Playback.md)
+
+
+<br/>
+<br/>
 
 ![](./images/WWDC2015.jpg)
 # WWDC2015
