@@ -96,6 +96,12 @@
   - [Introducing Expanded Subscriptions in iTunes Connect](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2016/Introducing-Expanded-Subscriptions-in-iTunes-Connet.md)
 - **Debugging**
   - [Thread Sanitizer and Static Analysis](https://github.com/mashup-ios/WWDC/blob/master/Jinha/WWDC2016/Thread-Sanitizer-and-Static-Analysis.md)
+- **Video**
+  - [Advances in AVFoundation Playback](/WWDC2016/Advances-in-AVFoundation-Playback.md)
+
+
+<br/>
+<br/>
 
 ![](./images/WWDC2015.jpg)
 # WWDC2015
