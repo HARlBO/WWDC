@@ -2,11 +2,12 @@
 
 > 📅 2020.6.4 (THU)
 >
->🗂 WWDC2016 | Session : 503 | Category : AVKit
->
+> 🗂 WWDC2016 | Session : 503 | Category : AVKit
+>  
 > 🔗 [https://developer.apple.com/videos/play/wwdc2016/503/](https://developer.apple.com/videos/play/wwdc2016/503/)
-
-🔖 AVFoundation is a powerful framework for media operations, providing capture, editing, playback, and export. Learn about new APIs and methods for media playback. Create seamless loops, simplify your playback logic with "autowait", and see how to deliver an even faster playback startup experience.
+>  <br/>
+>  <br/>
+> 🔖 AVFoundation is a powerful framework for media operations, providing capture, editing, playback, and export. Learn about new APIs and methods for media playback. Create seamless loops, simplify your playback logic with "autowait", and see how to deliver an even faster playback startup experience.
 
 
 ### AVFoundation
@@ -31,11 +32,11 @@
 
 > Existing
 
-`**playbackLikelyToKeepUp**` : true  if you were to stop playing now, you could keep on playing without stalling until you got to the end.
+`playbackLikelyToKeepUp` : true  if you were to stop playing now, you could keep on playing without stalling until you got to the end.
 
-`**playbackBufferFull**` : true if the buffer does as much as it's going to
+`playbackBufferFull` : true if the buffer does as much as it's going to
 
-`**playbackBufferEmpty**` : you are stalling or you're about to stall 
+`playbackBufferEmpty` : you are stalling or you're about to stall 
 
 For progressive-download playback, in iOS  9
 
