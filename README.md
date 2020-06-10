@@ -83,6 +83,10 @@
 - **App Frameworks**
   - [Customized Loading in WKWebView](/WWDC2017/Customized-Loading-in-WKWebView.md)
   - [Efficient Interactions with Frameworks](/WWDC2017/Efficient-Interactions-with-Frameworks.md)
+- **System Frameworks**
+  - [What's New in Core Bluetooth](/WWDC2017/Whats-New-in-Core-Bluetooth.md)
+  
+  
   
 <br/>
 <br/>
