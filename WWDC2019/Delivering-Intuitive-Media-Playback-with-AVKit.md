@@ -3,11 +3,11 @@
 >  📅 2020.6.4 (THU)
 >
 > 🗂 WWDC2019 | Session : 503 | Category : AVKit
-> <br/>
-> <br/>
+> 
 > 🔗 [https://developer.apple.com/videos/play/wwdc2019/503/](https://developer.apple.com/videos/play/wwdc2019/503/)
-
-🔖 AVKit is a high-level framework for building media user interfaces, complete with playback controls, chapter navigation, Picture-in-Picture, audio routing, support for subtitles and closed captioning, Siri and Now Playing integration, and support for keyboard, Touch Bar, and remote control. Learn best practices in how to integrate these technologies into your own apps on iOS, tvOS, and iPad apps on Mac.
+> <br/>
+> <br/>
+>🔖 AVKit is a high-level framework for building media user interfaces, complete with playback controls, chapter navigation, Picture-in-Picture, audio routing, support for subtitles and closed captioning, Siri and Now Playing integration, and support for keyboard, Touch Bar, and remote control. Learn best practices in how to integrate these technologies into your own apps on iOS, tvOS, and iPad apps on Mac.
 
 ## AVKit in the Stack
 

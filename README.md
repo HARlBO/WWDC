@@ -37,6 +37,8 @@
 - **Privacy and Security**
   - [Introducing Sign In with Apple](/WWDC2019/Introducing-Sign-In-with-Apple.md)
   - [What's New in Authentication](/WWDC2019/Whats-New-in-Authentication.md)  
+- **Video**
+  - [Delivering Intuitive Media Playback with AVKit](/WWDC2019/Delivering-Intuitive-Media-Playback-with-AVKit.md)
 
 <br/>
 <br/>
