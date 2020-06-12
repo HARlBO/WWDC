@@ -39,7 +39,9 @@
   - [What's New in Authentication](/WWDC2019/Whats-New-in-Authentication.md)  
 - **Video**
   - [Delivering Intuitive Media Playback with AVKit](/WWDC2019/Delivering-Intuitive-Media-Playback-with-AVKit.md)
-
+- **System Frameworks**
+  - [What's New in Core Bluetooth](/WWDC2019/Whats-New-in-Core-Bluetooth.md)
+  
 <br/>
 <br/>
 
