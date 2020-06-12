@@ -2,7 +2,7 @@
 
 >  📅 2020.6.11 (THU)
 >
-> 🗂 WWDC2019 | Session : 901 | Category :
+> 🗂 WWDC2019 | Session : 901 | Category : System Frameworks
 >  
 > 🔗 [https://developer.apple.com/videos/play/wwdc2019/901/](https://developer.apple.com/videos/play/wwdc2019/901/)
 >  <br />
