@@ -17,7 +17,7 @@
 
 <br/>
 
-![](./images/WWDC2020.png)
+![](./images/WWDC2020.jpg)
 # WWDC2019
 - **Swift**
   - [What's New in Swift](/WWDC2020/Whats-new-in-Swift.md)
