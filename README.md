@@ -2,6 +2,7 @@
 # 🎬 WWDC 
 
 ### 📌 ToC
+- [WWDC2020](#wwdc2020)
 - [WWDC2019](#wwdc2019)
 - [WWDC2018](#wwdc2018)
 - [WWDC2017](#wwdc2017)
@@ -14,6 +15,14 @@
 [Accessibility](#accessibility) [Signing](#signing)
 [Design](#design) [App Store](#app-store) [Interface Builder](#interface-builder) [Safari and Web](#safari-and-web)
 
+<br/>
+
+![](./images/WWDC2020.png)
+# WWDC2019
+- **Swift**
+  - [What's New in Swift](/WWDC2020/Whats-new-in-Swift.md)
+
+<br/>
 <br/>
 
 ![](./images/WWDC2019.png)
