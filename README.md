@@ -1,5 +1,5 @@
 
-# 🎬 WWDC 
+# 🎬 𝐖𝐖𝐃𝐂 
 
 ### 📌 ToC
 - [WWDC2020](#wwdc2020)
@@ -18,9 +18,15 @@
 <br/>
 
 ![](./images/WWDC2020.jpg)
-# WWDC2019
+# WWDC2020
 - **Swift**
   - [What's New in Swift](/WWDC2020/Whats-new-in-Swift.md)
+- **Privacy and Security**
+  - [Get the most out of Sign in with Apple](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md) 
+  
+
+
+
 
 <br/>
 <br/>
