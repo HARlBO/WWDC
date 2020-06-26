@@ -22,7 +22,7 @@
 - **Swift**
   - [What's New in Swift](/WWDC2020/Whats-new-in-Swift.md)
 - **Privacy and Security**
-  - [Get the most out of Sign in with Apple](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md) 
+  - [Get the most out of Sign in with Apple](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md) -  **🅼 𝐌𝐞𝐝𝐢𝐮𝐦 𝐜𝐮𝐫𝐚𝐭𝐨𝐫𝐬 𝐬𝐞𝐥𝐞𝐜𝐭𝐞𝐝** [😎👈](https://medium.com/@jjuou2/get-the-most-out-of-sign-in-with-apple-e7e2ae072882)
   
 
 
