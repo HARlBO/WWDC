@@ -11,8 +11,11 @@
 > <br />
 <br />  
 
+
 > Related : Introducing Sign In with Apple - WWDC19
-([https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Introducing-Sign-In-with-Apple.md](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Introducing-Sign-In-with-Apple.md))
+([Introducing Sign In with Apple](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Introducing-Sign-In-with-Apple.md))
+
+<br />  
 
 ##  Creating a secure request
 
@@ -20,7 +23,11 @@
 
 These `nonce` and `state` properties will allow you to verify that the authorization and credential you get after executing a request are the ones you were expecting.
 
+<br/> 
+
 ### Securing your request
+
+<br/> 
 
 #### Nonce
 
@@ -32,12 +39,15 @@ It is important to generate one unique nonce every time you create a new request
 
 This will allow you to verify this value in your server, helping prevent replay attacks.
 
+<br /> 
+
 #### State
 
 The state value is also an opaque blob of data sent with the request.
 
 **Once key difference he has with the nonce value is that the state will be returned in the credential allowing you to locally match a credential to a request and verify this was generated from your application**.
 
+<br /> 
 ### Private email relay
 
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%202.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%202.png)
@@ -47,6 +57,8 @@ Example on how to get a credential from an authorization
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%203.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%203.png)
 
 Inside of credential you will find properties containing the user information that you requested like name and email. You will also find important properties that will allow you to securely verify the request and create a session with your servers.
+
+<br /> 
 
 ### Verifying Credentials
 
@@ -67,6 +79,8 @@ The response contains an authorization code an identity token. Send these values
 - `nonce` : Verify these to be the same nonce you generated previously in the request. This will allow you to verify the authenticity of the authorization and help mitigate replay attacks.
 - `real_user_status` : 0 - unsupported, 1 - unknown, 2 - likely real
 
+<br/> 
+
 #### Identity token and authorization code
 
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%205.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%205.png)
@@ -74,6 +88,8 @@ The response contains an authorization code an identity token. Send these values
 You can exchange the authorization code with the Apple ID servers. And when this is successful you will receive a refreshed token and an access token for future calls as well as a new identity token that should be identical to the one you already have.
 
 You may verify a refresh token once a day to confirm that the user's Apple ID on that device is still in good standing.
+
+<br/> 
 
 ##  Credential state changes
 
@@ -88,6 +104,8 @@ It is important that this method is called every time your application is launch
 - `.notFound` :  This will be returned when there was no credential matching the user identifier. Present a login screen so that the user can authenticate your application.
 - 🆕 `.transferred`
 
+<br/> 
+
 ### 🆕 Transferred State
 
 - Ownership changed
@@ -100,6 +118,8 @@ This migration is handled silently. This is without any user interaction and can
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%207.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%207.png)
 
 We can validate the transfer state of the user and generate the new user identifier that will match the new team.
+
+<br/> 
 
 ##  Server notifications
 
@@ -122,6 +142,8 @@ It is important to note that this event as well as the email disabled will only 
 
 The `consent-revoked` event will be sent to you when a user decided to stop using their AppleID with your application and should be treated as a sign out by the user.
 
+<br/> 
+
 ##  Sign in with Apple Button
 
 ### 🆕 Swift UI support
@@ -136,6 +158,8 @@ The `consent-revoked` event will be sent to you when a user decided to stop usin
 
 `.signInWithAppleButtonStyle` : We can also select the Button style.
 
+<br/> 
+
 #### Styles
 
 - Black
@@ -144,6 +168,8 @@ The `consent-revoked` event will be sent to you when a user decided to stop usin
 
 If you need to personalize the Sign in with Apple Button more to match the specific design of your website or application → a new online portal
 
+<br/> 
+
 ### 🆕 Online Button editor
 
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2012.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2012.png)
@@ -151,6 +177,8 @@ If you need to personalize the Sign in with Apple Button more to match the speci
 [https://appleid.apple.com/signinwithapple/button](https://appleid.apple.com/signinwithapple/button)
 
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2013.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2013.png)
+
+<br/> 
 
 ##  🆕 Upgrading  to Sign in with Apple
 
@@ -165,23 +193,26 @@ Utilizing this API will prevent the duplication of accounts.
 
 → Users that are already using a traditional username and password based account won't abandon their current account, they can just upgrade.
 
+<br/> 
+
 ### Overview
 
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2014.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2014.png)
 
 > One Tap Account Security Upgrades - WWDC20
 
+<br/> 
+
 ### Three flow for upgrades
-
-![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2015.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2015.png)
-
-![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2016.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2016.png)
-
-![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2017.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2017.png)
+||||
+|-|-|-|
+|![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2015.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2015.png)|![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2016.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2016.png)|![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2017.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2017.png)|
 
 1. When security recommendations identifies a weak credential in the new password manager and settings. 
 2. When a user is interacting with your app utilizes password autofill and the selected credential is a weak credential.
 3. When you invoke the new authentication services API via a user interaction that you specify within your app 
+
+<br/> 
 
 ### ASAccountAuthenticationModificationViewController
 
@@ -194,6 +225,8 @@ Called initially by the extension hosting process in an attempt to upgrade the c
 - `viewDidLoad` : This can be used to set up an intermediary user interface for the security step of flow if necessary. Providing intermediary UI to indicate progress might help provide the best user experience.
 - `prepareInterfaceToConvertAccountToSignInWithApple` : 
 This is called just prior to your view appearing. It gets past the same ASPasswordCredential provided is a non user interaction flow.
+
+<br/> 
 
 ### Extension context
 
@@ -221,6 +254,8 @@ If your extension determines that additional UI needs to be shown to the user.
 If your canceled while within your UI flow utilize that user cancelled ever.
 - `failed` :
 All other failures can use the failed error.
+
+<br/> 
 
 ### Account authentication modification extension
 
@@ -261,9 +296,13 @@ What would happen if there's an issue with the account  preventing an immediate 
 - `.success` : This indicates that the account is ready to be converted right away.
 - `.twoFactorAuthRequired` : This means that we need to show some UI to the user. The  credential alone is not enough to upgrade.
 
+<br/> 
+
 ### Request UI only if needed
 
 To avoid users having to do extra work in most cases where a user is already authenticated in your app. 
+
+<br/> 
 
 ### Converting with UI
 
@@ -281,6 +320,8 @@ There could be circumstances where UI flows might be warranted.
 7. If the user could not be verified at this point, the extension context would be used to cancel the flow with the failed error.
 8. If the user provide a valid code and verification is a success, the extension is now ready to request the AppleID credential.
 
+<br/> 
+
 ### Upgrading account
 
 ![/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2025.png](/WWDC2020/images/Get-the-most-out-of-Sign-in-with-Apple/Untitled%2025.png)
@@ -297,8 +338,12 @@ There could be circumstances where UI flows might be warranted.
 10. This time the server is indicating success. So the extension will perform any required bookkeeping and then call a complete upgrade to Sign in with Apple on the extension context.
 11. This result in the password manager removing the existing credential and with that the flow is completed.
 
+<br/> 
+
 **Utilizing this API** →
 
 - Improving user security
 - Avoid confusion
 - Convenient
+
+ᵗʱᵃᵑᵏઽ ⠒̫⃝♡ 
