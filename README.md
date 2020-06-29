@@ -1,6 +1,15 @@
 
 # 🎬 𝐖𝐖𝐃𝐂 
 
+### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
+  - [Get the most out of Sign in with Apple (WWDC20)](https://medium.com/@jjuou2/get-the-most-out-of-sign-in-with-apple-e7e2ae072882)
+- [What's New in Swift (WWDC20)](/WWDC2020/Whats-new-in-Swift.md)
+- [Choosing the Right Cocoa Container View (WWDC17)](/WWDC2017/Choosing-the-Right-Cocoa-Container-View.md)
+- [Great Developer Habits (WWDC19)](/WWDC2019/Great-Developer-Habits.md)
+- [What's New in Core Bluetooth (WWDC19)](/WWDC2019/Whats-New-in-Core-Bluetooth.md)
+
+<br/>
+
 ### 📌 ToC
 - [WWDC2020](#wwdc2020)
 - [WWDC2019](#wwdc2019)
@@ -8,6 +17,9 @@
 - [WWDC2017](#wwdc2017)
 - [WWDC2016](#wwdc2016)
 - [WWDC2015](#wwdc2015)
+
+
+<br/>
 
 ### 📢 Topic
 [Swift](#swift) [Xcode](#xcode) [Testing](#testing) [Performance](#performance) [App Store Connect](#app-store-connect) [Accessibility](#accessibility) [Networking](#networking) [UI Frameworks](#ui-frameworks)
