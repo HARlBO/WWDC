@@ -2,11 +2,11 @@
 # 🎬 𝐖𝐖𝐃𝐂 
 
 ### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
-  - [Get the most out of Sign in with Apple (WWDC20)](https://medium.com/@jjuou2/get-the-most-out-of-sign-in-with-apple-e7e2ae072882)
+- [Meet WidgetKit](/WWDC2020/Meet-WidgetKit.md)
+- [Get the most out of Sign in with Apple (WWDC20)](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md)
 - [What's New in Swift (WWDC20)](/WWDC2020/Whats-new-in-Swift.md)
 - [Choosing the Right Cocoa Container View (WWDC17)](/WWDC2017/Choosing-the-Right-Cocoa-Container-View.md)
 - [Great Developer Habits (WWDC19)](/WWDC2019/Great-Developer-Habits.md)
-- [What's New in Core Bluetooth (WWDC19)](/WWDC2019/Whats-New-in-Core-Bluetooth.md)
 
 <br/>
 
@@ -35,9 +35,9 @@
   - [What's New in Swift](/WWDC2020/Whats-new-in-Swift.md)
 - **Privacy and Security**
   - [Get the most out of Sign in with Apple](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md) -  **🅼 𝐌𝐞𝐝𝐢𝐮𝐦 𝐜𝐮𝐫𝐚𝐭𝐨𝐫𝐬 𝐬𝐞𝐥𝐞𝐜𝐭𝐞𝐝** [😎👈](https://medium.com/@jjuou2/get-the-most-out-of-sign-in-with-apple-e7e2ae072882)
-  
-
-
+- **Frameworks**
+  - [Meet WidgetKit](/WWDC2020/Meet-WidgetKit.md)
+    
 
 
 <br/>
