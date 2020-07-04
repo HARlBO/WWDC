@@ -102,10 +102,9 @@ Since the widget is always showing what event is coming up next, we thought it m
 When you tap on the widget, the Day View scrolls to the latest event and gives you a nice glimpse of the rest of your day around it.
 
 Ex) small News widget
-
-![/WWDC2020/images/Design-great-widgets/Untitled%2012.png](/WWDC2020/images/Design-great-widgets/Untitled%2012.png)
-
-![/WWDC2020/images/Design-great-widgets/Untitled%2013.png](/WWDC2020/images/Design-great-widgets/Untitled%2013.png)
+|||
+|-|-|
+|![/WWDC2020/images/Design-great-widgets/Untitled%2012.png](/WWDC2020/images/Design-great-widgets/Untitled%2012.png)|![/WWDC2020/images/Design-great-widgets/Untitled%2013.png](/WWDC2020/images/Design-great-widgets/Untitled%2013.png)|
 
 Since it previews a rich news story that you might be interested in reading, tapping it brings you directly to that news story and the app.
 
@@ -114,18 +113,14 @@ Since it previews a rich news story that you might be interested in reading, tap
 - Both sizes fit more content and support multiple tap targets. Tapping a piece of content in a medium or large widget should also deep link you to the displayed content that's on the widget
 
 Ex) News
-
-![/WWDC2020/images/Design-great-widgets/Untitled%2014.png](/WWDC2020/images/Design-great-widgets/Untitled%2014.png)
-
-![/WWDC2020/images/Design-great-widgets/Untitled%2013.png](/WWDC2020/images/Design-great-widgets/Untitled%2013.png)
+|||
+|-|-|
+|![/WWDC2020/images/Design-great-widgets/Untitled%2014.png](/WWDC2020/images/Design-great-widgets/Untitled%2014.png)|![/WWDC2020/images/Design-great-widgets/Untitled%2013.png](/WWDC2020/images/Design-great-widgets/Untitled%2013.png)|
 
 Tapping either article brings you directly to the News story you tapped on. 
-
-![/WWDC2020/images/Design-great-widgets/Untitled%2015.png](/WWDC2020/images/Design-great-widgets/Untitled%2015.png)
-
-![/WWDC2020/images/Design-great-widgets/Untitled%2016.png](/WWDC2020/images/Design-great-widgets/Untitled%2016.png)
-
-![/WWDC2020/images/Design-great-widgets/Untitled%2017.png](/WWDC2020/images/Design-great-widgets/Untitled%2017.png)
+||||
+|-|-|-|
+|![/WWDC2020/images/Design-great-widgets/Untitled%2015.png](/WWDC2020/images/Design-great-widgets/Untitled%2015.png)|![/WWDC2020/images/Design-great-widgets/Untitled%2016.png](/WWDC2020/images/Design-great-widgets/Untitled%2016.png)|![/WWDC2020/images/Design-great-widgets/Untitled%2017.png](/WWDC2020/images/Design-great-widgets/Untitled%2017.png)|
 
 - Fill style is best for when you're deep linking into a single piece of content. Every small widget uses fill style since it only supports one tap target.
 - Cell style is best for when you're selecting a piece of content in a widget that lives in its own shape.
