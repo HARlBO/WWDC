@@ -33,7 +33,7 @@
 ![](./images/WWDC2020.png)
 # WWDC2020
 - **Swift**
-  - [What's New in Swift](/WWDC2020/Whats-new-in-Swift.md)
+  - [What's New in Swift](/WWDC2020/Whats-new-in-Swift.md) - ([**🅼 𝐌𝐞𝐝𝐢𝐮𝐦 Better Programming**](https://medium.com/better-programming/whats-new-in-swift-wwdc2020-4c112bbeb8fe))
 - **Privacy and Security**
   - [Get the most out of Sign in with Apple](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md) -  **🅼 𝐌𝐞𝐝𝐢𝐮𝐦 𝐜𝐮𝐫𝐚𝐭𝐨𝐫𝐬 𝐬𝐞𝐥𝐞𝐜𝐭𝐞𝐝** [😎👈](https://medium.com/@jjuou2/get-the-most-out-of-sign-in-with-apple-e7e2ae072882)
 - **Frameworks**
