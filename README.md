@@ -2,6 +2,7 @@
 # 🎬 𝐖𝐖𝐃𝐂 
 
 ### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
+- [Window Management in Your Multitasking App (WWDC19)]( https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
 - [Design great widgets (WWDC20)](/WWDC2020/Design-great-widgets.md)
 - [Meet WidgetKit (WWDC20)](/WWDC2020/Meet-WidgetKit.md)
 - [Get the most out of Sign in with Apple (WWDC20)](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md)
@@ -71,7 +72,11 @@
 - **Frameworks**
   - [What's New in Core Bluetooth](/WWDC2019/Whats-New-in-Core-Bluetooth.md)
   - [Great Developer Habits](/WWDC2019/Great-Developer-Habits.md)
+- **iPad**
+  - [Window Management in Your Multitasking App]( https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
+
  
+
 
 
 <br/>
