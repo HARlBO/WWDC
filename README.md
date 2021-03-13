@@ -2,13 +2,12 @@
 # 🎬 𝐖𝐖𝐃𝐂 
 
 ### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
+- [Architecting Your App for Multiple Windows (WWDC19)](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Architecting-Your-App-for-Multiple-Windows.md)
 - [Window Management in Your Multitasking App (WWDC19)]( https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
 - [Design great widgets (WWDC20)](/WWDC2020/Design-great-widgets.md)
 - [Meet WidgetKit (WWDC20)](/WWDC2020/Meet-WidgetKit.md)
 - [Get the most out of Sign in with Apple (WWDC20)](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md)
 - [What's New in Swift (WWDC20)](/WWDC2020/Whats-new-in-Swift.md)
-- [Choosing the Right Cocoa Container View (WWDC17)](/WWDC2017/Choosing-the-Right-Cocoa-Container-View.md)
-- [Great Developer Habits (WWDC19)](/WWDC2019/Great-Developer-Habits.md)
 
 <br/>
 
@@ -73,8 +72,8 @@
   - [What's New in Core Bluetooth](/WWDC2019/Whats-New-in-Core-Bluetooth.md)
   - [Great Developer Habits](/WWDC2019/Great-Developer-Habits.md)
 - **iPad**
-  - [Window Management in Your Multitasking App]( https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
-
+  - [Window Management in Your Multitasking App](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
+  - [Architecting Your App for Multiple Windows](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Architecting-Your-App-for-Multiple-Windows.md)
  
 
 
