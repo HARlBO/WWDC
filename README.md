@@ -7,7 +7,7 @@
 - [Design great widgets (WWDC20)](/WWDC2020/Design-great-widgets.md)
 - [Meet WidgetKit (WWDC20)](/WWDC2020/Meet-WidgetKit.md)
 - [Get the most out of Sign in with Apple (WWDC20)](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md)
-- [What's New in Swift (WWDC20)](/WWDC2020/Whats-new-in-Swift.md)
+
 
 <br/>
 
