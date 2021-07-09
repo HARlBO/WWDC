@@ -2,16 +2,16 @@
 # 🎬 𝐖𝐖𝐃𝐂 
 
 ### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
+- [What's New in Swift (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Swift.md)
 - [Architecting Your App for Multiple Windows (WWDC19)](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Architecting-Your-App-for-Multiple-Windows.md)
 - [Window Management in Your Multitasking App (WWDC19)]( https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
 - [Design great widgets (WWDC20)](/WWDC2020/Design-great-widgets.md)
 - [Meet WidgetKit (WWDC20)](/WWDC2020/Meet-WidgetKit.md)
-- [Get the most out of Sign in with Apple (WWDC20)](/WWDC2020/Get-the-most-out-of-Sign-in-with-Apple.md)
-
 
 <br/>
 
 ### 📌 ToC
+- [WWDC2021](#wwdc2021)
 - [WWDC2020](#wwdc2020)
 - [WWDC2019](#wwdc2019)
 - [WWDC2018](#wwdc2018)
@@ -22,12 +22,14 @@
 
 <br/>
 
-### 📢 Topic
-[Swift](#swift) [Xcode](#xcode) [Testing](#testing) [Performance](#performance) [App Store Connect](#app-store-connect) [Accessibility](#accessibility) [Networking](#networking) [UI Frameworks](#ui-frameworks)
-[Debugging](#debugging) [Localization](#localization)
-[Accessibility](#accessibility) [Signing](#signing)
-[Design](#design) [App Store](#app-store) [Interface Builder](#interface-builder) [Safari and Web](#safari-and-web)
 
+![](./images/WWDC2021.jpg)
+# WWDC2021
+- **Swift**
+  - [What's New in Swift](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Swift.md)
+
+
+<br/>
 <br/>
 
 ![](./images/WWDC2020.png)
@@ -203,3 +205,14 @@
 #### App Store
 #### Interface Builder
 #### Safari and Web
+
+
+
+<br/>
+
+### 📢 Topic
+[Swift](#swift) [Xcode](#xcode) [Testing](#testing) [Performance](#performance) [App Store Connect](#app-store-connect) [Accessibility](#accessibility) [Networking](#networking) [UI Frameworks](#ui-frameworks)
+[Debugging](#debugging) [Localization](#localization)
+[Accessibility](#accessibility) [Signing](#signing)
+[Design](#design) [App Store](#app-store) [Interface Builder](#interface-builder) [Safari and Web](#safari-and-web)
+
