@@ -2,11 +2,12 @@
 # 🎬 𝐖𝐖𝐃𝐂 
 
 ### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
+- [What's new in UIKit (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-UIKit.md)
 - [What's New in Swift (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Swift.md)
 - [Architecting Your App for Multiple Windows (WWDC19)](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Architecting-Your-App-for-Multiple-Windows.md)
 - [Window Management in Your Multitasking App (WWDC19)]( https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
 - [Design great widgets (WWDC20)](/WWDC2020/Design-great-widgets.md)
-- [Meet WidgetKit (WWDC20)](/WWDC2020/Meet-WidgetKit.md)
+
 
 <br/>
 
@@ -30,7 +31,8 @@
 # WWDC2021
 - **Swift**
   - [What's New in Swift](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Swift.md)
-
+- **UIKit**
+  - [What's new in UIKit](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-UIKit.md)
 
 <br/>
 <br/>
