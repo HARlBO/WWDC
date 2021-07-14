@@ -2,6 +2,7 @@
 # 🎬 𝐖𝐖𝐃𝐂 
 
 ### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
+- [What's new in Foundation (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Foundation.md)
 - [What's new in UIKit (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-UIKit.md)
 - [What's New in Swift (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Swift.md)
 - [Architecting Your App for Multiple Windows (WWDC19)](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Architecting-Your-App-for-Multiple-Windows.md)
@@ -33,6 +34,10 @@
   - [What's New in Swift](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Swift.md)
 - **UIKit**
   - [What's new in UIKit](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-UIKit.md)
+- **Foundation**
+  - [What's new in Foundation](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Foundation.md)
+
+
 
 <br/>
 <br/>
