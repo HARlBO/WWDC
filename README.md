@@ -2,24 +2,19 @@
 # 🎬 𝐖𝐖𝐃𝐂 
 
 ### ✨ 𝗪𝗵𝗮𝘁'𝘀 𝗻𝗲𝘄
-- [What's new in Foundation (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Foundation.md)
-- [What's new in UIKit (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-UIKit.md)
-- [What's New in Swift (WWDC21)](https://github.com/HARlBO/WWDC/blob/master/WWDC2021/What's-new-in-Swift.md)
-- [Architecting Your App for Multiple Windows (WWDC19)](https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Architecting-Your-App-for-Multiple-Windows.md)
-- [Window Management in Your Multitasking App (WWDC19)]( https://github.com/HARlBO/WWDC/blob/master/WWDC2019/Window-Management-in-Your-Multitasking-App.md)
-- [Design great widgets (WWDC20)](/WWDC2020/Design-great-widgets.md)
-
 
 <br/>
 
 <p align="center">
-  <a href="https://github.com/HARlBO/WWDC#wwdc2021"><img src="https://img.shields.io/badge/WWDC2021-ff3131?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2021"/></a>
-  <a href="https://github.com/HARlBO/WWDC#wwdc2020"><img src="https://img.shields.io/badge/WWDC2020-F38434?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2020"/></a>
-  <a href="https://github.com/HARlBO/WWDC#wwdc2019"><img src="https://img.shields.io/badge/WWDC2019-ffdd50?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2019"/></a>
-  <a href="https://github.com/HARlBO/WWDC#wwdc2018"><img src="https://img.shields.io/badge/WWDC2018-00ae14?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2018"/></a>
-  <a href="https://github.com/HARlBO/WWDC#wwdc2017"><img src="https://img.shields.io/badge/WWDC2017-1DA1F2?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2017"/></a>
- <a href="https://github.com/HARlBO/WWDC#wwdc2016"><img src="https://img.shields.io/badge/WWDC2016-0026ae?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2016"/></a>
- <a href="https://github.com/HARlBO/WWDC#wwdc2015"><img src="https://img.shields.io/badge/WWDC2015-840aee?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2015"/></a>  
+  <a href="https://github.com/HARlBO/WWDC#wwdc2023"><img src="https://img.shields.io/badge/WWDC2023-ff3131?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2023"/></a>
+  <a href="https://github.com/HARlBO/WWDC#wwdc2022"><img src="https://img.shields.io/badge/WWDC2022-F38434?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2022"/></a>
+  <a href="https://github.com/HARlBO/WWDC#wwdc2021"><img src="https://img.shields.io/badge/WWDC2021-ffdd50?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2021"/></a>
+  <a href="https://github.com/HARlBO/WWDC#wwdc2020"><img src="https://img.shields.io/badge/WWDC2020-00ae14?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2020"/></a>
+  <a href="https://github.com/HARlBO/WWDC#wwdc2019"><img src="https://img.shields.io/badge/WWDC2019-1DA1F2?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2019"/></a>
+  <a href="https://github.com/HARlBO/WWDC#wwdc2018"><img src="https://img.shields.io/badge/WWDC2018-0026ae?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2018"/></a>
+  <a href="https://github.com/HARlBO/WWDC#wwdc2017"><img src="https://img.shields.io/badge/WWDC2017-840aee?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2017"/></a>
+ <a href="https://github.com/HARlBO/WWDC#wwdc2016"><img src="https://img.shields.io/badge/WWDC2016-FF007F?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2016"/></a>
+ <a href="https://github.com/HARlBO/WWDC#wwdc2015"><img src="https://img.shields.io/badge/WWDC2015-8C8C8C?style=for-the-badge&link=https://github.com/HARlBO/WWDC#wwdc2015"/></a>  
   </a>
   
 </p>
@@ -27,6 +22,13 @@
 
 <br/>
 
+![Apple-WWDC23-hero_big jpg slideshow-xlarge_2x](https://github.com/HARlBO/WWDC/assets/13211322/c2d07f8a-809c-4c35-aed9-58be8a9fb568)
+# WWDC2023
+<br/>
+
+![07BzMwdfJMOp6mO8vHyfRVY-1 v1654115978](https://github.com/HARlBO/WWDC/assets/13211322/407d5811-c812-4d5c-b1b6-e0130dd99f88)
+# WWDC2022
+<br/>
 
 ![](./images/WWDC2021.jpg)
 # WWDC2021
@@ -198,23 +200,6 @@
   - [Mysteries of Auto Layout, Part 1](/WWDC2015/Mysteries-of-Auto-Layout-Part-1.md)
   - [Mysteries of Auto Layout, Part 2](/WWDC2015/Mysteries-of-Auto-Layout-Part-2.md)
   ---
-  
-#### Swift
-#### Xcode
-#### Testing
-#### Performance
-#### App Store Connect
-#### Accessibility
-#### Networking
-#### UI Frameworks
-#### Debugging
-#### Localization
-#### Accessibility
-#### Signing
-#### Design
-#### App Store
-#### Interface Builder
-#### Safari and Web
 
 
 
