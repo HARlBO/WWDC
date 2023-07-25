@@ -17,18 +17,18 @@ Traits are independent pieces of data that the system automatically propagates t
 
 UIKit provides many built-in system traits,
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled.png)
 
 iOS 17 부터 custom traits 정의 가능
 <br /> 
 
 ### Trait collections
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%201.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%201.png)
 
 trait collections 은 traits 와 관련 변수들을 포함
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%202.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png)
 
 iOS 17 부터 trait collections 에 new API 추가
 
@@ -44,14 +44,14 @@ iOS 17 부터 trait collections 에 new API 추가
 
 ### Trait environments
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%203.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%203.png)
 
 trait environments 에는 UIWindowScnene, UIWindow, UIPresentationController, UIViewController, UIView 가 있고 각각 고유의 trait collection 을 갖는다.
 <br /> 
 
 ### Trait hierarchy
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%204.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%204.png)
 
 - trait environment 은 앱을 통해 flow 타는 trait hierarchy 로 연결되어 있다
 - 각각의 trait environment 는 parent environment 의 trait 값들을 상속 받는다
@@ -59,7 +59,7 @@ trait environments 에는 UIWindowScnene, UIWindow, UIPresentationController, UI
 
 ### View controller and view trait hierarchy
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%205.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%205.png)
 
 iOS 17 이전
 
@@ -67,11 +67,11 @@ iOS 17 이전
 - View Controller 에 속한 View 들은 View Controller 로 부터 trait 상속
 - View Controller 에 속하지 않은 View 들은 superView 로 부터 trait 상속
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%206.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%206.png)
 
 → View hierarchy 에 있는 trait 의 플로우는  View Controller 에 속한 View 에서 끊긴다
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%207.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%207.png)
 
 iOS17 에서는 trait hierarchy 를 통합
 
@@ -84,7 +84,7 @@ iOS17 에서는 trait hierarchy 를 통합
 
 ### View controller trait updates
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%208.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%208.png)
 
  `viewWillAppear` 는 View 가 hierarchy 에 추가 되기 전에 항상 호출됨
 
@@ -98,7 +98,7 @@ iOS17 에서는 trait hierarchy 를 통합
 
 ### View trait updates
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%209.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%209.png)
 
 - iOS 17 에서는 view trait 업데이트의 일관성과 성능 향상
 - View 는 hierarchy 안에 있을 때만 trait collection 을 없데이트함
@@ -128,17 +128,17 @@ trait system 이 강력하긴 하지만, 데이터 전달로서 사용하는건 
 
 **Custom trait**
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2010.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2010.png)
 
 trait 을 정의 하면, 바로 `UITraitCollection`, `UIMutableTraits` 의 새로운 API 사용 가능
 
 struct 자체를 키값처럼 사용
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2011.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2011.png)
 
 Custom trait 정의 할때 extension 도 써주어야 함
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2012.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2012.png)
 
 색상에 영향을 주는 trait 은 비용이 비싸기 때문에, 드물게 변화하는 trait 에만 사용
 
@@ -150,16 +150,16 @@ identifier
 - reverse-DNS 포멧 사용
 - 앱내에서 유니크 하도록
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2013.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2013.png)
 
 테마에 따른 커스텀 다이나믹 컬러 정의
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2014.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2014.png)
 <br /> 
 
 ### **Custom trait best practices**
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2015.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2015.png)
 
 - 간단한 struct 나 enum 같은 value types 사용 
 Class 기반의 trait 는 피하기
@@ -170,7 +170,7 @@ Class 기반의 trait 는 피하기
 
 ### **Custom triats in Swift and Objective-C**
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2016.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2016.png)
 
 Obj-C 도 사용 가능!
 
@@ -182,7 +182,7 @@ but… 옵씨, Swift 에 각각 cutom trait 정의해주어햐 한다
 
 ### Trait overrides
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2017.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2017.png)
 
 Trait overrdies 는 trait hierachy 내부의 데이터를 수정하기 위한 매커니즘이다
 
@@ -190,17 +190,17 @@ iOS 17 부터는 trait overrides 를 더 적용하기 쉬워짐
 
 각각의 trait envirionment classesdp `traitOverrides` 프로퍼티가 생김
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2018.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2018.png)
 
 trait overrides 는 트리 구조 안에서 어떤 위치에서든 trait 값을 바꾼다
 
 이 중 한 환경에서 적용되면 모든 하위 계층에 다 적용
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2019.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2019.png)
 
 parent 에서 적용된 traitCollection 은 상속받고 있는 child 에도 적용
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2020.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2020.png)
 
 아마 trait override 가 즉시 반영 되지 않을 수 있다
 
@@ -208,7 +208,7 @@ parent 에서 적용된 traitCollection 은 상속받고 있는 child 에도 적
 view 의 trait override 수정은 `layoutSubviews` 전까지는 바로 반영되지 않는다
 - `traitOverrides` 프로퍼티는  override 가 적용되었는지, 제거되었는지도 확인해줌
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2021.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2021.png)
 
 - contains 메소드로 이미 있는 거라면 제거, 없으면 적용
 - `traitOverrides` 는 값을 세팅하기 위한 input mechanism 이다
@@ -220,7 +220,7 @@ view 의 trait override 수정은 `layoutSubviews` 전까지는 바로 반영되
 
 ### Maximize performance
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2022.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2022.png)
 
 - 각각의 `traitOverride` 는 비용이 들기 때문에 꼭 필요한 경우에만 사용
 - 값을 수정하는 경우, 시스템은 하위 trait collection 을 모두 업데이트 해야하기 때문에, `traitOverride` 를 수정하는 빈도수를 최소화 해야함
@@ -229,7 +229,7 @@ view 의 trait override 수정은 `layoutSubviews` 전까지는 바로 반영되
 
 ## Handling changes
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2023.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2023.png)
 
 ✔ `**traitCollectionDidChange(_:)` is deprecated in iOS17**
 
@@ -238,7 +238,7 @@ view 의 trait override 수정은 `layoutSubviews` 전까지는 바로 반영되
     - target action 방식 또는 clouse
     - subclass 에서 메소드를 override 할필요 없기 때문에 어디서든 changes 를 옵저빙 가능
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2024.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2024.png)
 
 iOS 17 이전 버전을 대응해서 `traitCollectionDidChange` 를 계속 사용해야 한다면,
 
@@ -248,7 +248,7 @@ iOS 17 이전 버전을 대응해서 `traitCollectionDidChange` 를 계속 사�
 
 **Closure**
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2025.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2025.png)
 
 - `UITraitHorizontalSizeClass` 같은 모든 시스템 trait 에 대한 심볼이 새로 생김
 - 모든 trait 에 대한 변화에 대해 호출되지 않기 때문에 더이상 old, new trait 값들을 비교할 필요가 없음
@@ -260,14 +260,14 @@ iOS 17 이전 버전을 대응해서 `traitCollectionDidChange` 를 계속 사�
 
 **target-action**
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2026.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2026.png)
 
 - target 파라미터 생략 가능 (생략하면 registerForTraitChange 호출되는 같은 객체)
 - view, previousTraitCollection 파라미터
 <br /> 
 ### Semantic system trait sets
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2027.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2027.png)
 
 - 시스템 다이나믹 컬러에 영향을 주는 system trait 리턴
 - UIImage(named:) 사용해서 이미지 로드시 system traits 의 subset 리턴
@@ -275,7 +275,7 @@ iOS 17 이전 버전을 대응해서 `traitCollectionDidChange` 를 계속 사�
 
 ### Unresgistration
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2028.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2028.png)
 <br /> 
 
 ### Maximize performance
@@ -291,22 +291,22 @@ UIKit → SwiftUI 로 데이터를 전달하는 끊김 없는 새로운 방법�
 
 ### Intergrating UIKit and SwiftUI
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2029.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2029.png)
 
 UIKit 의 Custom trait 은 SwiftUI 의 environment keys 와 매우 유사
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2030.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2030.png)
 
 둘을 브릿지 하기 위해서는 `UITraitBridgedEnvironmentKey` 프로토콜만 채택해주면 됨
 
 UIKit → SwiftUI
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2031.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2031.png)
 
 SwiftUI → UIKit
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2032.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2032.png)
 <br /> 
 ### Next steps
 
-![Untitled](/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%202.png/Untitled%2033.png)
+![Untitled](https://github.com/HARlBO/WWDC/blob/master/WWDC2023/images/Unleash-the-UIKit-trait-system/Untitled%2033.png)
